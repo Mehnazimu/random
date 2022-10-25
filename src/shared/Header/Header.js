@@ -8,7 +8,20 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar bg="dark">
+                    <Container>
+                        <Navbar.Brand href="#home">
+                            <img
+                                src="https://www.nextgenscience.org/sites/all/themes/ngss/img/accordion_logo.png"
+                                width="40"
+                                height="40"
+                                className="d-inline-block align-top rounded"
+                                alt=""
+                            />
+                        </Navbar.Brand>
+                    </Container>
+                </Navbar>
+                <Navbar.Brand href="#home">Unique Learner</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
